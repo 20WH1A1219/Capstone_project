@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="signup1.css">
+    </head>
+    <body>
+    <div class="parent">
+        <h1 style="text-align: center;color: maroon;">Sign up</h1>
+        <p style="font-size: 20px;color: crimson;"><b><i>Create an account by filling the signup form</i></b></p>
+        <div class="child">
+        <form method="GET" action="/signup1info">
+        <input name="firstname" type="text" placeholder="Firstname" style="width: 190px;height:40px;border-radius: 10px;">
+        <input name="lastname" type="text" placeholder="Lastname" style="width: 190px;height:40px;margin-bottom: 25px;border-radius: 10px;">
+        <br>
+        <input  name ="email" type="text" placeholder="Mobile/Email" style="width: 380px;height:40px;margin-bottom: 25px;border-radius: 10px;"><br>
+        <input  name = "password" type="password" placeholder="New password" style="width: 380px;height:40px;margin-bottom: 25px;border-radius: 10px;"><br>
+        <input type="password" placeholder="Re-enter password" style="width: 380px;height:40px;margin-bottom: 25px;border-radius: 10px;"><br>
+
+        <input name = "date" type="Date" style="width: 380px;height:40px;margin-bottom: 25px;border-radius: 10px;"><br>
+        <button onClick ="myFunction()" style="width: 380px;height: 40px;background-color: palevioletred;border-radius: 10px;">Signup</button>
+        </form>
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            alert("Signed up successfully");
+        }
+    </script>
+
+        
+
+    </body>
+</html>
