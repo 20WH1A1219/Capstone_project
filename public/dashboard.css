@@ -1,0 +1,76 @@
+.row{
+    display: flex;
+}
+.col1 img  {
+    width: 75%;
+    height: 756;
+}
+  
+.col2 {
+    width: 45%;
+    margin-top: 10%;
+}
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body{
+
+    min-height: 100vh;
+    
+    background-color: #100000; display: flex; justify-content: center; align-items: center;
+    
+    }
+form{ 
+    position: relative; 
+}
+.search-input{
+    width: 70px; height: 70px; transition-delay: 0.4s;
+    border-radius: 50%;
+    margin-right: 120px;
+    margin-top: 20px;
+    background: none; border: 3px solid maroon;
+    outline: none;
+    color: maroon;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.btn{
+position: absolute; 
+width: 30px; 
+height: 330px; 
+margin-right:460px;
+margin-bottom: 60px;
+top: 0; 
+right: 0;
+background:none; outline: none;
+border:none;
+cursor: pointer;
+
+}
+.btn::before, .btn::after{ 
+    content: ''; 
+    position: absolute; 
+    width: 3px; 
+    height: 40px; 
+    background-color: maroon; 
+    transition: all 0.3s;
+}
+.btn::before{
+    transform: rotate(45deg); bottom: -10px; right: -7px;
+    
+}
+.btn::after{
+    transform: rotate(-45deg); opacity: 0; right: 33.5px; bottom: 15px;
+}
+.search-input.open {
+    width: 300px;
+    border-radius: 10px;
+    padding: 0 60px 0 15px;
+}
+.btn.clicked::before{ 
+    right: 33.5px; bottom: 15px;
+}
+.btn.clicked::after{ 
+    opacity: 1; 
+}
+
+
+

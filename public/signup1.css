@@ -1,0 +1,16 @@
+body{
+    background-image: url("animated2.jpg");
+}
+.parent{
+    padding-left: 15px;
+    background-color: #F5B7B1;
+    margin-top : 100px;
+    margin-bottom : 50px;
+    margin-left : 550px;
+    margin-right : 50px;
+    height :70%;
+    width: 27%;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
